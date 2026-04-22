@@ -74,17 +74,3 @@ base model    →   fine-tune    →     train on pairwise  →   RL fine-tune  
 - Directly optimises preference pairs
 
 ---
-
-## Connecting to your own models
-
-Replace `MODEL_NAME = "gpt2"` with any HuggingFace model that fits your GPU:
-
-| Model | Params | VRAM needed |
-|-------|--------|-------------|
-| `gpt2` | 117M | ~2 GB |
-| `gpt2-medium` | 345M | ~4 GB |
-| `gpt2-large` | 774M | ~8 GB |
-| `distilgpt2` | 82M | ~1.5 GB |
-| `facebook/opt-125m` | 125M | ~2 GB |
-
-For 7B+ models: use QLoRA (4-bit) via `bitsandbytes` — replace `load_in_4bit=True` in the model loading step.
