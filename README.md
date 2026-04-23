@@ -283,17 +283,7 @@ Track:
 
 Tools:
 
-:contentReference[oaicite:10]{index=10}  
-:contentReference[oaicite:11]{index=11}  
+ :contentReference[oaicite:10]{index=10}  
+ :contentReference[oaicite:11]{index=11}  
 
 ---
-
-## Final Recommendation
-
-Deploy:
-
-Llama 3 8B  
-+ INT4 quantization  
-+ :contentReference[oaicite:13]{index=13}  
-
-This provides the best balance of latency, reliability, and operational simplicity for fully offline deployment.
