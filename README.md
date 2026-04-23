@@ -4,7 +4,7 @@
 
 ---
 
-# Question B — Evaluating LMM Output Quality
+# Evaluating LMM Output Quality
 
 deployed an internal report summarization model and need an evaluation framework beyond subjective feedback.
 
